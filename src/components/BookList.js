@@ -18,7 +18,8 @@ const BookList = () => {
   useEffect(() => {
     GetDefaultBooks()
       .then((response) => {
-        dispatch(bookActions.assignData(JSON.parse(response.data)));
+        const transformedData = JSON.parse(JSON.parse(response.data.body).data);
+        dispatch(bookActions.assignData(transformedData));
       })
       .catch((error) => console.log(error));
   }, [dispatch]);

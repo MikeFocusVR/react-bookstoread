@@ -5,7 +5,7 @@ const initialData = {
   books: [
     {
       position: "1",
-      name: "Loading",
+      name: "Local Loading",
       author: "Loading",
       read: false,
       dateread: "2023-01-12",

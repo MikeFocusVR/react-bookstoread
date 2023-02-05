@@ -16,6 +16,7 @@ const BookList = () => {
   };
 
   const includeReadHandler = () => { setIncludeRead(!includeRead);}
+  const clearSearchHandler =() => { setSearchTerm("");};
 
   let filteredList = bookList.books.filter((book) =>
     book.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -23,7 +24,6 @@ const BookList = () => {
     || book.author.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  const clearSearchHandler =() => { setSearchTerm("");};
 
   if (!includeRead) {
     filteredList = filteredList.filter((book) => !book.read);

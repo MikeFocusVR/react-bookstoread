@@ -9,3 +9,9 @@
   margin-bottom: 1rem;
   padding: 1rem;
 }
+
+.header a
+{
+  text-decoration: none;
+  color: white;
+}

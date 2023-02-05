@@ -77,6 +77,15 @@ const BookItem = (props) => {
                   <Button>View Wiki Page</Button>
                 </a>
               )}
+              {props.book.links.author.length > 0 && (
+                <a
+                  href={props.book.links.author}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button>View Author Page</Button>
+                </a>
+              )}
             </span>
           </>
         )}

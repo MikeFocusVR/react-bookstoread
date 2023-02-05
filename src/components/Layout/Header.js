@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className={classes.header}>
-      <h1>Big Read Tracker</h1>
+      <a href="https://main.d399grsiasrqse.amplifyapp.com/" target="_blank" rel="noreferrer"><h1>Big Read Tracker</h1></a>
       {isAuth && <Button onClick={logoutHandler}>Logout</Button>}
     </header>
   );

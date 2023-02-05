@@ -5,8 +5,6 @@ import classes from "./BookItem.module.css";
 import Card from "../UI/Card";
 import Button from "../UI/Button";
 import { bookActions } from "../../store/books";
-import { AiOutlineAmazon } from "react-icons/ai";
-import { SiWikipedia } from "react-icons/si";
 
 const BookItem = (props) => {
   const dispatch = useDispatch();

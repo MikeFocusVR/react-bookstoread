@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { useSelector } from 'react-redux';
+
+import Auth from './components/Auth';
+import Header from './components/Layout/Header';
+
+import classes from'./App.module.css';
+import './AppColourScheme.css';
+import BookList from './components/BookList';
 
 function App() {
+  const isAuth = useSelector(state => state.auth.isAuthenticated);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      {!isAuth && <Auth/>}
+      {isAuth && <BookList/>}
     </div>
   );
 }

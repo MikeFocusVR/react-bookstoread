@@ -1,0 +1,13 @@
+:root {
+    --headerColour: #8d8741;
+    --backgroundColour: #bc986A;
+
+    --buttonPrimary: #659DBD;
+    --buttonPrimaryHover: #4b7d9a;
+    --buttonSecondary: #daad86;
+    --buttonSecondaryHover: #92745a;
+
+    --cardColour: #fbeec1;
+
+    --cardColourRead: #9adb68;
+}

@@ -1,12 +1,12 @@
 [
   {
     "position": "1",
-    "name": "Loading",
-    "author": "Loading",
+    "name": "The Lord of The Rings",
+    "author": "J. R. R. Tolkien",
     "read": false,
-    "dateread": "2023-01-12",
+    "dateread": "",
     "links": {
-      "author": "https://www.amazon.co.uk/J-R-R-Tolkien/e/B000ARC6KA/ref=aufs_dp_fta_dsk",
+      "author": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
       "bookwiki": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
       "amazon": "https://amzn.eu/d/je4mueS",
       "audible": "https://www.audible.co.uk/pd/The-Fellowship-of-the-Ring-Audiobook/0008487278?action_code=ASSGB149080119000H&share_location=pdp"
@@ -14,6 +14,23 @@
     "details": {
       "coverimg": "https://m.media-amazon.com/images/I/41NYzoTpqIL._SY291_BO1,204,203,200_QL40_ML2_.jpg",
       "synopsis": "Continuing the story begun in The Hobbit, all three parts of the epic masterpiece, The Lord of the Rings, in one paperback. Features the definitive edition of the text, fold-out flaps with the original two-colour maps, and a revised and expanded index. Sauron, the Dark Lord, has gathered to him all the Rings of Power – the means by which he intends to rule Middle-earth. All he lacks in his plans for dominion is the One Ring – the ring that rules them all – which has fallen into the hands of the hobbit, Bilbo Baggins. In a sleepy village in the Shire, young Frodo Baggins finds himself faced with an immense task, as the Ring is entrusted to his care. He must leave his home and make a perilous journey across the realms of Middle-earth to the Crack of Doom, deep inside the territories of the Dark Lord. There he must destroy the Ring forever and foil the Dark Lord in his evil purpose. Since it was first published in 1954, The Lord of the Rings has been a book people have treasured. Steeped in unrivalled magic and otherworldliness, its sweeping fantasy has touched the hearts of young and old alike. This single-volume paperback edition is the definitive text, fully restored with almost 400 corrections – with the full co-operation of Christopher Tolkien – and features a striking new cover."
+    }
+  },
+  {
+    "position": "2",
+    "name": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "read": false,
+    "dateread": "",
+    "links": {
+      "author": "https://en.wikipedia.org/wiki/Jane_Austen",
+      "bookwiki": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+      "amazon": "https://amzn.eu/d/99ofBs6",
+      "audible": "https://amzn.eu/d/bCIPtJn"
+    },
+    "details": {
+      "coverimg": "https://m.media-amazon.com/images/I/31p-Oes1xxS._SX310_BO1,204,203,200_.jpg",
+      "synopsis": "A new pocket edition of Jane Austen's classic comedy of manners, Pride and Prejudice, originally published in 1813. Pride and Prejudice is story of the Bennet family, a family of five daughters where the parents are desperate for at least one of them to make a wealthy match and save the next generation from destitution. Austen's story engages with the tension between marrying for love, rather than wealth or social prestige, and the pressure to assure financial security. Moreover, it features some of her most enduring characters -- the Bennet family, including the parents Mr. and Mrs. Bennet and the five Bennet Sisters (Jane Bennet, Lizzy Bennet, Kitty Bennet, Mary Bennet, and Lydia Bennet), the handsome Charles Bingley, the vain Caroline Bingley, the evil George Wickham, Mr. Collins, and of course the unforgettable Mr. Darcy. Originally published in 1813, Pride and Prejudice is one of the best-loved and best-selling novels in English literature of all time. This Pocket Edition is designed to be easy to carry -- the size of a standard mass market paperback, easy to fit in a purse or briefcase or pocket -- but made with paper that stands up to repeat reading, and font and typeface large enough to easily read, and margins wide enough to be marked up by students of all ages. Jane Austen (1775-1817) was an English novelist known for her novels about the British landed gentry and the social, economic, and romantic pressures faced by young women. Her comic wit and use of irony and literary realism have given her novels remarkable staying power, staying as relevant and meaningful to readers today as during her own time. Her novels include Sense and Sensibility (1811), Pride and Prejudice (1813), Mansfield Park (1814), Emma (1815), and Northanger Abbey and Persuasion, published together posthumously in 1818. A short epistolary novel, Lady Susan, and another unfinished work, The Watsons, were publish posthumously in 1871, and a final unfinished novel, Sanditon, was eventually published in 1925. Her works are considered to be among the finest examples of early 19th century British literature, hallmarks of the transition to 19th century literary realism."
     }
   }
 ]

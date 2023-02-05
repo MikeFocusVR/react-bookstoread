@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialAuthState = {
   isAuthenticated: false,
+  key: ""
 };
 
 const authSlice = createSlice({
@@ -14,6 +15,11 @@ const authSlice = createSlice({
     logout(state) {
       state.isAuthenticated = false;
     },
+    setKey(state,action)
+    {
+        state.key = action.payload;
+        //This is used to create a key based on username and password and that key is then the unique identifier in the database for pulling the records
+    }
   },
 });
 

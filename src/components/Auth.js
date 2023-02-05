@@ -1,4 +1,5 @@
 import { useDispatch } from "react-redux";
+import sha256 from 'crypto-js/sha256';
 
 import classes from "./Auth.module.css";
 import { authActions } from "../store/auth";
@@ -9,6 +10,8 @@ const Auth = () => {
 
   const loginHandler = (event) => {
     event.preventDefault();
+    const key = sha256(event.target.username.value + event.target.password.value );
+    dispatch(authActions.setKey(key.toString()));
     //Submit login details to authorise
     dispatch(authActions.login());
   };
@@ -18,12 +21,12 @@ const Auth = () => {
       <section>
         <form onSubmit={loginHandler}>
           <div className={classes.control}>
-            <label htmlFor="email">Email</label>
-            <input type="email" id="email" />
+            <label htmlFor="username">Username</label>
+            <input type="text" id="username" autoComplete="username" />
           </div>
           <div className={classes.control}>
             <label htmlFor="password">Password</label>
-            <input type="password" id="password" />
+            <input type="password" id="password" autoComplete="current-password"/>
           </div>
           <Button>Login</Button>
         </form>

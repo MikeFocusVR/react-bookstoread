@@ -22,11 +22,11 @@ const Auth = () => {
         <form onSubmit={loginHandler}>
           <div className={classes.control}>
             <label htmlFor="username">Username</label>
-            <input type="text" id="username" autoComplete="username" />
+            <input type="text" id="username" autoComplete="username" value="1"/>
           </div>
           <div className={classes.control}>
             <label htmlFor="password">Password</label>
-            <input type="password" id="password" autoComplete="current-password"/>
+            <input type="password" id="password" autoComplete="current-password" value="1"/>
           </div>
           <Button>Login</Button>
         </form>

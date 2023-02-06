@@ -11,18 +11,19 @@ import { bookActions } from "../store/books";
 const BookList = () => {
   const dispatch = useDispatch();
   const bookList = useSelector((state) => state.books);
+  const user = useSelector((state) => state.auth.key);
   const [searchTerm, setSearchTerm] = useState("");
   const [includeRead, setIncludeRead] = useState(true);
 
   //Load Books
   useEffect(() => {
-    GetDefaultBooks()
+    GetDefaultBooks(user)
       .then((response) => {
-        const transformedData = JSON.parse(JSON.parse(response.data.body).data);
+        const transformedData = JSON.parse(response.data.data);
         dispatch(bookActions.assignData(transformedData));
       })
       .catch((error) => console.log(error));
-  }, [dispatch]);
+  }, [dispatch,user]);
 
   const searchHandler = (event) => {
     setSearchTerm(event.target.value);
@@ -32,6 +33,7 @@ const BookList = () => {
     setIncludeRead(!includeRead);
   };
   const clearSearchHandler = () => {
+    console.log(user);
     setSearchTerm("");
   };
 

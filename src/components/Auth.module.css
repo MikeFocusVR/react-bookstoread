@@ -1,11 +1,21 @@
+.main
+{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #313131;
+}
+
 .auth {
-  margin: 5rem auto;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  margin: auto;
   width: 25rem;
   border-radius: 8px;
   padding: 1rem;
   text-align: center;
-  background-color: #f4f0fa;
+  background-color: #f4f0fad1;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .control {

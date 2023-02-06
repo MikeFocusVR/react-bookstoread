@@ -1,13 +1,20 @@
 :root {
-    --headerColour: #8d8741;
-    --backgroundColour: #bc986A;
+    --headerColour: #5c635a;
+    --backgroundColour: #727a6f;
 
-    --buttonPrimary: #659DBD;
-    --buttonPrimaryHover: #4b7d9a;
-    --buttonSecondary: #daad86;
-    --buttonSecondaryHover: #92745a;
+    --buttonPrimary: #d2d6da;
+    --buttonPrimaryFont: #353536;
 
-    --cardColour: #fbeec1;
+    --buttonPrimaryHover: #60616a;
+    --buttonPrimaryHoverFont: #dadbe6;
 
-    --cardColourRead: #9adb68;
+    --buttonSecondary: #749599ff;
+    --buttonSecondaryHover: rgb(72, 93, 95);
+
+    --cardColour: rgb(232, 232, 232);
+
+    --cardColourRead: rgb(177, 197, 170);
+
+    --primaryfont: #727a6f;
+
 }

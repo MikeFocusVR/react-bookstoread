@@ -11,9 +11,13 @@ function App() {
 
   return (
     <div>
-      <Header />
       {!isAuth && <Auth />}
-      {isAuth && <BookList />}
+      {isAuth && (
+        <>
+          <Header />
+          <BookList />
+        </>
+      )}
     </div>
   );
 }

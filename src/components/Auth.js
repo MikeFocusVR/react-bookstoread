@@ -34,7 +34,7 @@ const Auth = () => {
               type="text"
               id="username"
               autoComplete="username"
-              value="1"
+              defaultValue="1"
             />
           </div>
           <div className={classes.control}>
@@ -43,7 +43,7 @@ const Auth = () => {
               type="password"
               id="password"
               autoComplete="current-password"
-              value="1"
+              defaultValue="1"
             />
           </div>
           <Button>Login or Register</Button>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { GetDefaultBooks } from "../api/BookStore";
+import { GetDefaultBooks, SaveData } from "../api/BookStore";
 
 import classes from "./BookList.module.css";
 import BookItem from "./BookItem/BookItem";
@@ -19,11 +19,19 @@ const BookList = () => {
   useEffect(() => {
     GetDefaultBooks(user)
       .then((response) => {
-        const transformedData = JSON.parse(response.data.data);
+        const transformedData = JSON.parse(response.data.data).books;
         dispatch(bookActions.assignData(transformedData));
       })
       .catch((error) => console.log(error));
   }, [dispatch,user]);
+
+  const processSave = () => 
+  {
+    SaveData(user, bookList)
+      .then((response) => {
+      })
+      .catch((error) => console.log(error));
+  }
 
   const searchHandler = (event) => {
     setSearchTerm(event.target.value);
@@ -33,8 +41,8 @@ const BookList = () => {
     setIncludeRead(!includeRead);
   };
   const clearSearchHandler = () => {
-    console.log(user);
     setSearchTerm("");
+    processSave();
   };
 
   let filteredList = bookList.books.filter(

@@ -40,11 +40,11 @@ const BookItem = (props) => {
         {expanded && (
           <>
             <div className={classes.bookdetails}>
-              <img
+              {props.book.details.coverimg.length >0 &&<img
                 src={props.book.details.coverimg}
                 alt="Book cover"
                 className={classes.image}
-              ></img>
+              ></img>}
               <span className={classes.synopsis}>
                 {props.book.details.synopsis}
               </span>

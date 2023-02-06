@@ -1,4 +1,4 @@
-[
+{"books":[
   {
     "position": "1",
     "name": "The Lord of The Rings",
@@ -32,5 +32,22 @@
       "coverimg": "https://m.media-amazon.com/images/I/31p-Oes1xxS._SX310_BO1,204,203,200_.jpg",
       "synopsis": "A new pocket edition of Jane Austen's classic comedy of manners, Pride and Prejudice, originally published in 1813. Pride and Prejudice is story of the Bennet family, a family of five daughters where the parents are desperate for at least one of them to make a wealthy match and save the next generation from destitution. Austen's story engages with the tension between marrying for love, rather than wealth or social prestige, and the pressure to assure financial security. Moreover, it features some of her most enduring characters -- the Bennet family, including the parents Mr. and Mrs. Bennet and the five Bennet Sisters (Jane Bennet, Lizzy Bennet, Kitty Bennet, Mary Bennet, and Lydia Bennet), the handsome Charles Bingley, the vain Caroline Bingley, the evil George Wickham, Mr. Collins, and of course the unforgettable Mr. Darcy. Originally published in 1813, Pride and Prejudice is one of the best-loved and best-selling novels in English literature of all time. This Pocket Edition is designed to be easy to carry -- the size of a standard mass market paperback, easy to fit in a purse or briefcase or pocket -- but made with paper that stands up to repeat reading, and font and typeface large enough to easily read, and margins wide enough to be marked up by students of all ages. Jane Austen (1775-1817) was an English novelist known for her novels about the British landed gentry and the social, economic, and romantic pressures faced by young women. Her comic wit and use of irony and literary realism have given her novels remarkable staying power, staying as relevant and meaningful to readers today as during her own time. Her novels include Sense and Sensibility (1811), Pride and Prejudice (1813), Mansfield Park (1814), Emma (1815), and Northanger Abbey and Persuasion, published together posthumously in 1818. A short epistolary novel, Lady Susan, and another unfinished work, The Watsons, were publish posthumously in 1871, and a final unfinished novel, Sanditon, was eventually published in 1925. Her works are considered to be among the finest examples of early 19th century British literature, hallmarks of the transition to 19th century literary realism."
     }
+  },
+  {
+    "position": "3",
+    "name": "His Dark Materials",
+    "author": "Philip Pullman",
+    "read": false,
+    "dateread": "",
+    "links": {
+      "author": "",
+      "bookwiki": "",
+      "amazon": "",
+      "audible": ""
+    },
+    "details": {
+      "coverimg": "",
+      "synopsis": ""
+    }
   }
-]
+]}

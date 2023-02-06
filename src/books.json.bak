@@ -40,6 +40,125 @@
     "read": false,
     "dateread": "",
     "links": {
+      "author": "https://en.wikipedia.org/wiki/Philip_Pullman",
+      "bookwiki": "https://en.wikipedia.org/wiki/His_Dark_Materials",
+      "amazon": "https://amzn.eu/d/73Q0bO4",
+      "audible": "https://amzn.eu/d/0gMDgfv"
+    },
+    "details": {
+      "coverimg": "https://m.media-amazon.com/images/I/512yDZC9A-L._SX350_BO1,204,203,200_.jpg",
+      "synopsis": "Philip Pullman's groundbreaking HIS DARK MATERIALS trilogy, now a thrilling and critically acclaimed BBC/HBO television series, available here in a paperback slipcase. First published in 1995, and acclaimed as a modern masterpiece, the first book in the series, Northern Lights, won the UK's top awards for children's literature. Today, the story of Lyra and her daemon is read and loved by adults and children alike."
+    }
+  },
+  {
+    "position": "4",
+    "name": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "read": false,
+    "dateread": "",
+    "links": {
+      "author": "https://en.wikipedia.org/wiki/Douglas_Adams",
+      "bookwiki": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy",
+      "amazon": "https://amzn.eu/d/3A4PhDC",
+      "audible": "https://amzn.eu/d/4HAIyyg"
+    },
+    "details": {
+      "coverimg": "https://m.media-amazon.com/images/I/51XEOnctcHL._SX328_BO1,204,203,200_.jpg",
+      "synopsis": "'One of the greatest achievements in comedy. A work of staggering genius' - David Walliams. An international phenomenon and pop-culture classic, The Hitchhiker's Guide to the Galaxy has been a radio show, TV series, novel, stage play, comic book and film. Following the galactic (mis)adventures of Arthur Dent, Hitchhiker’s in its various incarnations has captured the imaginations of curious minds around the world . . . It's an ordinary Thursday lunchtime for Arthur Dent until his house gets demolished. The Earth follows shortly afterwards to make way for a new hyperspace express route, and his best friend has just announced that he's an alien. At this moment, they're hurtling through space with nothing but their towels and an innocuous-looking book inscribed, in large friendly letters, with the words: DON'T PANIC. The weekend has only just begun . . ."
+    }
+  },
+  {
+    "position": "5",
+    "name": "Harry Potter and the Goblet of Fire",
+    "author": "JK Rowling",
+    "read": false,
+    "dateread": "",
+    "links": {
+      "author": "https://en.wikipedia.org/wiki/J._K._Rowling",
+      "bookwiki": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Goblet_of_Fire",
+      "amazon": "https://amzn.eu/d/0b7IZV6",
+      "audible": "https://amzn.eu/d/9j4Pm8a"
+    },
+    "details": {
+      "coverimg": "https://m.media-amazon.com/images/I/51a1acJM-+L._SX498_BO1,204,203,200_.jpg",
+      "synopsis": "'There will be three tasks, spaced throughout the school year, and they will test the champions in many different ways...their magical prowess - their daring - their powers of deduction - and, of course, their ability to cope with danger.' The Triwizard Tournament is to be held at Hogwarts. Only wizards who are over seventeen are allowed to enter - but that doesn't stop Harry dreaming that he will win the competition. Then at Hallowe'en, when the Goblet of Fire makes its selection, Harry is amazed to find his name is one of those that the magical cup picks out. He will face death-defying tasks, dragons, and dark wizards, but with the help of his best friends, Ron and Hermione, he might just make it through - alive! "
+    }
+  },
+  {
+    "position": "6",
+    "name": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "read": false,
+    "dateread": "",
+    "links": {
+      "author": "",
+      "bookwiki": "",
+      "amazon": "",
+      "audible": ""
+    },
+    "details": {
+      "coverimg": "",
+      "synopsis": ""
+    }
+  },
+  {
+    "position": "7",
+    "name": "Winnie the Pooh",
+    "author": "AA Milne",
+    "read": false,
+    "dateread": "",
+    "links": {
+      "author": "",
+      "bookwiki": "",
+      "amazon": "",
+      "audible": ""
+    },
+    "details": {
+      "coverimg": "",
+      "synopsis": ""
+    }
+  },
+  {
+    "position": "8",
+    "name": "Nineteen Eighty-Four",
+    "author": "George Orwell",
+    "read": false,
+    "dateread": "",
+    "links": {
+      "author": "",
+      "bookwiki": "",
+      "amazon": "",
+      "audible": ""
+    },
+    "details": {
+      "coverimg": "",
+      "synopsis": ""
+    }
+  },
+  {
+    "position": "9",
+    "name": "The Lion, the Witch and the Wardrobe",
+    "author": "CS Lewis",
+    "read": false,
+    "dateread": "",
+    "links": {
+      "author": "",
+      "bookwiki": "",
+      "amazon": "",
+      "audible": ""
+    },
+    "details": {
+      "coverimg": "",
+      "synopsis": ""
+    }
+  },
+  {
+    "position": "10",
+    "name": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "read": false,
+    "dateread": "",
+    "links": {
       "author": "",
       "bookwiki": "",
       "amazon": "",

@@ -10,6 +10,7 @@ import { bookActions } from "../store/books";
 
 const BookList = () => {
   const dispatch = useDispatch();
+  const [loading,SetLoading] = useState(true);
   const bookList = useSelector((state) => state.books);
   const user = useSelector((state) => state.auth.key);
   const [searchTerm, setSearchTerm] = useState("");
@@ -23,6 +24,7 @@ const BookList = () => {
         dispatch(bookActions.assignData(transformedData));
       })
       .catch((error) => console.log(error));
+      SetLoading(false);
   }, [dispatch,user]);
 
   const processSave = () => 
@@ -42,7 +44,6 @@ const BookList = () => {
   };
   const clearSearchHandler = () => {
     setSearchTerm("");
-    processSave();
   };
 
   let filteredList = bookList.books.filter(
@@ -71,7 +72,7 @@ const BookList = () => {
       <Button onClick={includeReadHandler}>
         {includeRead ? "Hide" : "Show"} Read Books
       </Button>
-      {displayBookList}
+      {loading ? "Loading Books" : displayBookList}
     </div>
   );
 };

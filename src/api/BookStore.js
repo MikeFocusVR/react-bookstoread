@@ -20,9 +20,7 @@ export const SaveData = (user, _books) => {
 };
 
 export const SaveData2 = async (user, _books) => {
-  try {
-    console.log("Trying to save data");
-    
+  try {    
     const books = JSON.stringify(_books);
     const response = await axios.post(
       "https://25xwqiuh6b.execute-api.eu-west-1.amazonaws.com/prod",
@@ -31,7 +29,6 @@ export const SaveData2 = async (user, _books) => {
         books,
       }
     );
-    console.log("Response: " +response);
     return response.data;
   } catch (error) {
     console.error(error);
